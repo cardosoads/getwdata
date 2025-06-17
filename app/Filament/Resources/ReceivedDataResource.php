@@ -72,7 +72,7 @@ class ReceivedDataResource extends Resource
     {
         return [
             'index'  => Pages\ListReceivedData::route('/'),
-            'create' => Pages\CreateReceivedData::route('/create'),
+//            'create' => Pages\CreateReceivedData::route('/create'),
             'edit'   => Pages\EditReceivedData::route('/{record}/edit'),
         ];
     }
